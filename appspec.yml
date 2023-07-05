@@ -3,9 +3,9 @@ os: linux
 
 files:
   - source: /index.jsp
-    destination: /home/ec2-user/tomcat/webapps
+    destination: /home/ec2-user/tomcat/webapps/
   - source: /test.jsp
-    destination: /home/ec2-user/tomcat/webapps
+    destination: /home/ec2-user/tomcat/webapps/
     
 hooks:
   AfterInstall:
