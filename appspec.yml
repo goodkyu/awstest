@@ -7,10 +7,10 @@ files:
     
 hooks:
   AfterInstall:
-    - location: server_start.sh
+    - location: /root/tomcat/bin/startup.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: server_stop.sh
+    - location: /root/tomcat/bin/shutdown.sh
       timeout: 300
       runas: root 
