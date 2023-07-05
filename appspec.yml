@@ -2,15 +2,15 @@ version: 0.0
 os: linux
 
 files:
-  - source: /test.jsp
+  - source: /index.jsp
     destination: /home/ec2-user/tomcat/webapps/
     
 hooks:
   AfterInstall:
-    - location: /home/ec2-user/tomcat/bin/startup.sh
+    - location: server_start.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: /home/ec2-user/tomcat/bin/shutdown.sh
+    - location: server_stop.sh
       timeout: 300
-      runas: root 
+      runas: root
