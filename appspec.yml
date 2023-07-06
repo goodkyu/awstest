@@ -4,7 +4,7 @@ os: linux
 files:
 #  - source: /index.jsp
 #    destination: /home/ec2-user/tomcat/webapps/
-  - source: /test.jsp
+  - source: /dbtest.jsp
     destination: /root/tomcat/webapps/ROOT
     
 hooks:
