@@ -5,7 +5,7 @@ files:
 #  - source: /index.jsp
 #    destination: /home/ec2-user/tomcat/webapps/
   - source: /test.jsp
-    destination: /home/ec2-user/tomcat/webapps/
+    destination: /root/tomcat/webapps/ROOT
     
 hooks:
   AfterInstall:
