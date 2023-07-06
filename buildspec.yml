@@ -18,5 +18,6 @@ artifacts:
     - scripts/server_start.sh
     - scripts/server_stop.sh
     - appspec.yml
+    - dbtest.jsp
    
   discard-paths: yes
